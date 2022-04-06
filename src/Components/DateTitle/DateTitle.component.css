@@ -1,0 +1,60 @@
+/* Place */
+.row1{
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+    color: #FFFFFF;
+}
+
+
+
+
+/* dates font design */
+.day-date {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+.date {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.year-month{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 428px){
+    /* Place */
+    .row1 {
+        padding-top: 7px;
+        height: 20.36px;
+    }
+    /* dates font design */
+    .day-date{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 19px;
+        
+    }
+    .date{
+        font-size: 0.875rem;
+        line-height: 16px;
+    }
+    .year-month {
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 16px;
+        margin-top: 1px;
+    }
+}

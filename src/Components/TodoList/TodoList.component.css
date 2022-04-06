@@ -1,0 +1,14 @@
+.header {
+    background-color: #57385C;
+    width: 934px;
+    height: 218px;
+    margin-top: 132px;
+}
+
+@media only screen and (max-width: 428px){
+    .header {
+        width: 100%;
+        height: 99px;
+        margin-top: 0;
+    }
+}
